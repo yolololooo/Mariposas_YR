@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <!-- head  metadta que le enviamos al navegador y configuraciones -->
+    <head>
+        <!-- meta es el elemento de envio de metainformacion (no se ve) -->
+        <!-- charset es un set de caracteres que utiliaremos -->
+        <meta charset="UTF=8">
+        <!-- se asegura que la página se vea bien en cualquier dispositivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mariposas | Yolotzin Romero </title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Josefin+Sans:wght@300;500&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <main> 
+            <h1> Mariposas </h1>
+            <!-- con la clase le ponemos un nombre propio a la imagen para poder nombrarla luego luego y se llama como punto en css en vez de como una imagen -->
+            <img class="mariposas" src="/imagenes/mariposasvarias.jfif" alt="mariposa monarca">
+            <!-- "./" para poder agregar una imagen de la carpeta de imagenes -->
+            <!-- listas -->
+            <!-- ul, unordered list -->
+            <!-- H3 es un header medianon, texto medio grande pero no como el título -->
+            <!-- SE PUEDE HACER DE H1 A H6 PARA TENER DIFERENTES VALORES DEL TAMAÑO DE LA LETRA -->
+            <!-- Anclas, menú de la página -->
+            <div class="anclass">
+                <!-- lo de "" de href ponerlo sin acentos -->
+                <a href="#tipos">Tipos de mariposas</a>
+                <a href="#importancia">Importancia</a>
+                <a href="#ecosistema">Ecosistema</a>
+                <a href="#datos">Datos interesantes</a>
+            </div>
+
+            <h3 Class="h3tipos" id="tipos"> Tipos de mariposas </h3>
+            <ul class="tiposs">
+                <!-- Para no tener que estar escribe y escribe esto si se usa mucho puedes poner el nombre por el numero de copias li*10-->
+                <li class="tmariposa">Rhopalocera: Con aproximadamente 25, 000 especies. Son más conocidas como mariposas.</li>
+                <img class="tmariposaa" src="/imagenes/tmariposa.jfif" alt="Imagen de mariposa">
+                <li class="tpolilla">Heterocera: Con aproximadamente 120, 000 especies. Son más conocidas como polillas.</li>
+                <img class="tpolillaa" src="/imagenes/tpolilla.jfif" alt="Imagen de polilla">
+            </ul>
+
+            <h3 class="h3impor" id="importancia">Importancia de las mariposas</h3>
+            <ol class="lista-importancia">
+                <li>Polinizan diversas especies de plantas</li>
+                <li>Son esenciales para que muchos ecosistemas prosperen por su viaje alrededor del continente moviendo polen, promoviendo la diversidad genética de las plantas</li>
+                <li>Fundamentales para la cadena trófica, en especial para aves como los murciélagos </li>
+                <li>Control natural de plagas</li>
+            </ol>
+
+            <h3 id="ecosistema" class="h3eco">Ecosistema</h3>
+            <!-- para rellenar con texto se puede poner lorem*10 y yap -->
+            <p class="info"> Viven en regiones tropicales de climas cálidos con mucha vegetación ya que es su principal fuente de alimento. En los trópicos podemos encontrar una mayor cantidad de especies pero hay algunas como la Mariposa Monarca que vive en Norteamérica. </p>
+                <img class="imagen1" src="/imagenes/ecosistema.jfif" alt="Ecosistema">    
+            <!-- P es párrafo -->
+            <p class="info">Pasan su vida viajando entre Canadá, Estados Unidos y México. En México están principalmente en el estado de Michoacán en los meses de octubre y noviembre, justamente en la fecha de día de muertos, es por esto que algunos pueblos originarios le adjudicaron un significado a la mariposa con la muerte. </p>
+                <img class="imagen2" src="/imagenes/mapa.gif" alt="Hábitat de las mariposas monarcas">
+
+            <h3 class="h3datos" id="datos">Datos interesantes</h3>
+            <ul class="info-datos">
+                <li>En México se conocen 1,800 especies de mariposas; en la CDMX se han registrado alrededor de 350 especies. </li>
+                <li>Del total de mariposas diurnas descritas para el país, 14% son endémicas, no existiendo en ninguna otra parte del planeta, sólo en México.</li>
+                <li>Colombia tiene la mayor cantidad de espeices de mariposas en el mundo.</li>
+                <li>Son capaces de recibir luz ultravioleta</li>
+                <li>Para protegerse adoptan la apariencia de otros seres vivos.</li>
+                <li>La gran parte de las mariposas adultas viven de 1 a 2 semanas, aunque el proceso previo dura más tiempo ya que consta de las etapas: huevo, larva (oruga) y pupa (crisálida).</li>
+                <li>Cuatro especies de mariposas se han extinguido en los últimos 150 años.</li>
+                <li>Surgieron hace entre 120 a 100 millones de años.</li>
+                <li>Pueden medir de los 3, 175 milímetros a los 30.48 centímetros.</li>
+                <li>Si su temperatura es menor a los 86 grados centígrados no pueden volar. </li>
+                <li>Su velocidad máxima de vuelo es de 40 kilómetros por hora.</li>
+                <li>Solamente ven los colores rojo, verde y amarillo.</li>
+                <img class="varias-mariposas" src="/imagenes/ciclovida.jfif" alt="Tipos de mariposas">
+            </ul>
+
+            <p class="boton">¡Haz click en esta imagen para una sorpresa!</p>
+            <!-- Ancla que nos lleva a otro sitio web -->
+            <a class="boton-img" href="https://bongo.cat/">
+                <img src="/imagenes/bongo.jpg" alt="">
+            </a> 
+            <!-- FORMULARIOS form obtener info, /form meter info-->
+            <form class="formulario">
+                <p class="caja-pregunta">Añade una sugerencia, pregunta o lo que sea:)</p>
+                <!-- en for=" " es ponerle el nombre que queramos para identificar a la respuesta que venga de tal pregunta -->
+                <label for="sug">
+                    <input type="text">
+                    <button class="button-send">Enviar</button>
+                </label>
+                <!-- Para hacer una encuesta con varias opciones de las que solo puedes elegir una -->
+                <!-- Debe tener el mismo nombre en NAME para que el cuestionario sepa cuáles son las opciones de respuesta, si se le cambia nos dejará seleccionar más de una porque lo toma como diferentes respuestas -->
+                <!-- id antes de type y value entre type y name pueden llamarse igual que name pero no son taaan importantes creo -->
+                <p class="pregunta">¿En qué estado de México podemos encontrar a la mariposa monarca?</p>
+                    <label for="edom">
+                        <!-- RADIO para elegir solo una opción -->
+                        <input type="radio" name="tipos">Estado de México
+                    </label>
+                    <label for="son">
+                        <input type="radio" name="tipos">Sonora
+                    </label>
+                    <label for="mich">
+                        <input type="radio" name="tipos">Michoacán
+                    </label>
+
+                <!-- CHECKBOX para poder elegir más de una opción -->
+                <p class="pregunta">¿Cuáles son las importancias de las mariposas?</p>
+                <label class="preg-imp" for="1">
+                    <input type="checkbox" name="imp"/>Cumplen parte de la cadena trófica
+                </label>
+                <label class="preg-imp" for="2">
+                    <input type="checkbox" name="imp"/>Decoración de hogares
+                </label>
+                <label class="preg-imp" for="3">
+                    <input type="checkbox" name="imp"/>Son polinizadoras
+                </label>
+                <label class="preg-imp" for="4">
+                    <input type="checkbox" name="imp"/>Comen moscas
+                </label>
+                <label class="preg-imp" for="5">
+                    <input type="checkbox" name="imp"/>Mueven plagas de un lugar a otro
+                </label>
+                <label class="preg-imp" for="6">
+                    <input type="checkbox" name="imp">Eliminan plagas
+                </label>
+                <label class="preg-imp" for="7">
+                    <input type="checkbox" name="imp"/>Mueven el polen de un lado a otro
+                </label>
+            </form>
+            <p class="cierre">Muchas gracias por visitar la página web, para más proyectos pica aquí:</p>
+            <a class="boton-img" href="https://github.com/yolololooo">
+                <img class="mifoto" src="/imagenes/mifoto.jpeg" alt="">
+            </a> 
+        </main>
+    </body>
+</html> 

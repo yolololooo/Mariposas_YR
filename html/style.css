@@ -1,0 +1,163 @@
+/* selector {
+        propiedad : valor;
+        propiedad : valor;
+    }
+ */
+
+body {
+    background-color:#FFF2D8;
+    color: #113946;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #f96153;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    padding-left: 40%;
+    padding-right:40%;
+}
+
+h3 {
+    color: #f08565;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.h3tipos {
+    margin-left: 40%;
+}
+/* Para las anclas (como links para que te lleven a otra parte de la página) */
+a {
+    color: #997c54;
+}
+
+/* para el tamaño de las imágenes. es mejor solo poner una, si sabemos que la imagen es cuadrada pues le ponemos las dos*/
+/* ESTO EDITA EL TAMAÑO DE TODAS, YA QUE SE AGREGA "CLASS" SE LE PUEDE MOVER EL TAMAÑO A CADA UNA */
+
+.mariposas {
+    width: 300px;
+    padding-left: 40%;
+}
+
+
+.anclass{
+    margin-top: 30px;
+    font-size: 25px;
+    justify-content: center;
+    font-family:'Open Sans', sans-serif;
+    margin-left:25%;
+}
+
+.tiposs {
+    width: 50%;
+    padding-right: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.tmariposaa {
+    padding-left:800px;
+    width: 150px;
+}
+
+.tpolillaa {
+    padding-left:800px;
+    width: 150px;
+    
+}
+
+.h3impor {
+    margin-left: 38%;
+}
+
+.lista-importancia {
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 10%;
+}
+
+.h3eco {
+    margin-left: 45%
+}
+
+.info {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.imagen1 {
+    margin-left:40%;
+}
+
+.imagen2 {
+    margin-left: 35%;
+}
+
+.h3datos {
+    margin-left: 40%;
+}
+
+.info-datos {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.varias-mariposas {
+    margin-left: 35%;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.boton {
+    margin-left: 36%;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.boton-img {
+    margin-left: 43%;
+}
+
+.pregunta{
+    margin-top: 40px;
+}
+
+.caja-pregunta {
+    font-size:20px;
+}
+
+.formulario {
+    margin-top: 70px;
+    margin-left:20%;
+    margin-right:20%;
+    font-size: 20px;
+}
+
+.preg-imp {
+    justify-content:space-between;
+}
+
+.button-send{
+    border-color: pink;
+}   
+
+.cierre {
+    margin-top: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 16%;
+    font-size:30px;
+    color:#f96153;
+}
+
+.mifoto{
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    margin-top:40px;
+}
